@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave Interference Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Wave Interference Simulation</h1>
+    <button id="toggleButton">Toggle Interference</button>
+    <button id="addWaveSource">Add Wave Source</button>
+    <button id="removeWaveSource">Remove Wave Source</button>
+    <label for="wavelengthSlider">Wavelength:</label>
+    <input type="range" id="wavelengthSlider" min="10" max="100" value="50">
+    <span id="wavelengthValue">50</span>
+
+    <p>Number of wave sources: <span id="waveSourceCount">3</span></p>
+    <canvas id="waveCanvas" width="800" height="600"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
